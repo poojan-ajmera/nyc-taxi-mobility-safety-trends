@@ -59,3 +59,72 @@ nyc-taxi-mobility-safety-trends/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+## Dashboard Preview
+
+### Dashboard 1: Citywide Mobility Overview
+
+This dashboard gives a broad view of NYC taxi movement in 2024, including daily trip patterns, holiday dips, taxi versus subway trends, borough-level pickups/drop-offs, and congested road segments.
+
+![Citywide Mobility Overview](dashboards/dash1_citywide_mobility_overview.png)
+
+### Dashboard 2: Hourly Demand vs Fare
+
+This dashboard compares hourly taxi demand with average fare patterns to see whether pricing aligns with rider behavior.
+
+![Hourly Demand vs Fare](dashboards/dash2_hourly_demand_vs_fare.png)
+
+### Dashboard 3: December 13 Peak-Day Taxi Behavior
+
+This dashboard zooms into December 13, 2024, a peak taxi activity day, and analyzes trip volume, fare trends, and trip distance throughout the day.
+
+![December 13 Peak-Day Taxi Behavior](dashboards/dash3_dec13_peak_day_behavior.png)
+
+### Dashboard 4: Mobility vs Safety
+
+This dashboard compares monthly taxi trip volume with taxi-involved crash counts to explore the relationship between mobility and safety risk.
+
+![Mobility vs Safety](dashboards/dash4_mobility_vs_safety.png)
+
+## Key Findings
+
+- Taxi demand follows strong daily, weekly, and seasonal patterns.
+- Holiday periods create sharp drops in trip volume.
+- Manhattan remains the central taxi activity zone in NYC.
+- Queens shows a pickup-heavy pattern, likely connected to airport-origin trips.
+- Fare patterns do not always match demand peaks.
+- Early morning fares are unusually high despite lower trip volume.
+- Crash counts appear higher during some high-mobility months.
+- Congested road segments such as Cross Bronx Expressway and Long Island Expressway remain major pressure points.
+
+## Skills Demonstrated
+
+- Large dataset handling
+- Parquet to CSV conversion
+- Data cleaning and transformation
+- Time-series aggregation
+- Dashboard design
+- Data storytelling
+- Business problem framing
+- Transportation and urban mobility analysis
+- Tableau visualization
+
+## How to Use This Repository
+
+1. Review dashboard screenshots in the `dashboards/` folder.
+2. Open processed summary datasets in `data/processed/`.
+3. Review notebooks in order:
+   - `00_parquet_to_csv_conversion.ipynb`
+   - `01_combining_datasets.ipynb`
+   - `02_dec13_peak_day_analysis.ipynb`
+   - `03_dec13_half_hour_analysis.ipynb`
+4. Open the final report in the `reports/` folder.
+5. Open the presentation in the `presentation/` folder.
+
+## Future Improvements
+
+- Predictive modeling for crash risk
+- Zone-level fare optimization
+- Uber and Lyft data integration
+- Public Tableau dashboard publishing
+- Real-time taxi demand forecasting
