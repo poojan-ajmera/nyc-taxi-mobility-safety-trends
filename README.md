@@ -60,7 +60,9 @@ nyc-taxi-mobility-safety-trends/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-Dashboard 1: Citywide Mobility Overview
+```
+
+## Dashboard 1: Citywide Mobility Overview
 
 This dashboard gives a broad view of NYC taxi movement in 2024. It highlights daily trip patterns, holiday dips, monthly taxi versus subway trends, pickup and drop-off behavior by borough, and highly congested road segments.
 
