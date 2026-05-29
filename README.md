@@ -124,3 +124,24 @@ Zone-level fare optimization
 Integration of Uber and Lyft ride-share data
 Interactive public Tableau dashboard publishing
 Real-time taxi demand forecasting
+
+---
+
+## Dashboard Preview
+
+### Dashboard 1: Citywide Mobility Overview
+
+![Citywide Mobility Overview](dashboards/dash1_citywide_mobility_overview.png)
+
+### Dashboard 2: Hourly Demand vs Fare
+
+![Hourly Demand vs Fare](dashboards/dash2_hourly_demand_vs_fare.png)
+
+### Dashboard 3: December 13 Peak-Day Taxi Behavior
+
+![December 13 Peak-Day Taxi Behavior](dashboards/dash3_dec13_peak_day_behavior.png)
+
+### Dashboard 4: Mobility vs Safety
+
+![Mobility vs Safety](dashboards/dash4_mobility_vs_safety.png)
+
