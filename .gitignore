@@ -1,0 +1,22 @@
+# Raw NYC taxi files
+*.parquet
+yellow_tripdata_2024-*.csv
+yellow_tripdata_2024_full_combined.csv
+
+# Raw public datasets
+Medallion_Drivers*
+MTA_Daily_Ridership*
+TLC_Vehicles_Involved*
+Traffic_Volume_Counts*
+
+# Mac/system files
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
